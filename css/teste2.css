@@ -9,32 +9,43 @@ body {
 /*
 article
 */
-article {
+section{
 	margin: 0 auto;
-	width: 70%; 
+	padding: 10px;
+	max-width:100%;
+    max-height:100%;
 }
-h3{
-    margin-top: 0.2%;
+
+article, aside {
+	width: 100%;
+	margin: 0px 0 0px 0;
+	padding: 10px;
+}
+
+
+article h3 {
+	font-size: 2em;
+	margin: 0 0 10px 0;
 	text-align: center;
 }
 
-p{
-	text-align: center-right;
+article p {
+	margin: 0 0 10px 0;
+    text-align: center;
 }
-section {
-	height: 50%;
-    width: 50%;
-	margin: 0 auto;
+
+article ul {
+	margin: 20px 0 0 0;
+	font-size: 1.4em;
 }
+
+article ul  li {
+	margin: 0 0 10px 0;
+}
+
 /*
 imagens
-#img{
-    margin-top: 2%;
-    margin-bottom: 10px;
-    width: 5%;
-    margin-left: 10px;
-    float: bottom;
-}
+
 */
 
 #sete img{
@@ -77,81 +88,12 @@ imagens
     width: 30%;
 	float:left;
 }
-#golem img {
-	height: 50%;
-    width: 50%;
-	float:left;
-}
-#marie img {
-	height: 30%;
-    width: 30%;
-	float:left;
-}
-#regis img {
-	height: 30%;
-    width: 30%;
-	float:left;
-}
-#magico img {
-	height: 34%;
-    width: 34%;
-	float:left;
-}
-#pandora img {
-	height: 40%;
-    width: 45%;
-	float:left;
-}
-#beat img {
-	height: 60%;
-    width: 60%;
-	float:left;
-}
-#star img {
-	height: 33%;
-    width: 33%;
-	float:left;
-}
-#toppa img {
-	height: 30%;
-    width: 30%;
-	float:left
-}
-#the img {
-	height: 35%;
-    width: 35%;
-	float:left;
-}
-#new img {
-	height: 35%;
-    width: 35%;
-	float:left;
-}
-#rave img {
-	height: 50%;
-    width: 50%;
-	float:left;
-}
-#tsubasa img {
-	height: 50%;
-    width: 50%;
-	float:left;
-}
 article img {
-height: 100%;
-width: 100%;
-margin: 0 auto;
-}
 
-aside img {
-height: 60%;
-width: 60%;
-float:center;
 margin: 0 auto;
-}
+max-width:100%;
+max-height:100%;
+width: auto;
+height: auto;
 
-#op1 img {
-height: 100%;
-width: 100%;
-margin: 0 auto;
 }
