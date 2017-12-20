@@ -14,10 +14,12 @@ article index
 
 */
 article{
-	width: 400px;
-	height:200px;
-	margin: 0px 0 0px 0;
+max-width: 300px;
+max-height:200px;
 	padding: 10px;
+	margin: 0 auto;
+width: auto;
+height: auto;
 }
 p {
 	margin: 0 0 10px 0;
