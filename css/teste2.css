@@ -1,99 +1,67 @@
+/*Menu*/
 .mySlides {display:none}
 .demo {cursor:pointer}
-body {
+/*body {
 	margin: 0;
 	padding: 0;
 	font-family: Helvetica, sans-serif;
 	font-size: 62.5%;
-}
-/*
-article
-*/
-section{
-	margin: 0 auto;
-	padding: 10px;
-	max-width:100%;
-    max-height:100%;
-}
+}*/
 
-article, aside {
-	width: 100%;
+
+/*
+article index
+
+*/
+article{
+	width: 400px;
+	height:200px;
 	margin: 0px 0 0px 0;
 	padding: 10px;
 }
-
-
-article h3 {
-	font-size: 2em;
+p {
 	margin: 0 0 10px 0;
 	text-align: center;
 }
 
-article p {
-	margin: 0 0 10px 0;
-    text-align: center;
-}
-
-article ul {
-	margin: 20px 0 0 0;
-	font-size: 1.4em;
-}
-
-article ul  li {
-	margin: 0 0 10px 0;
-}
-
 /*
-imagens
+imagens index
 
 */
 
-#sete img{
-	height: 60%;
-    width: 60%;
-	float:left; 
-}
-#bruxa img{
-	height: 30%;
-    width: 30%;
-	float:left; 
-}
-#aka img{
-	height: 30%;
-    width: 30%;
-	float:left; 
-}
-#gato img {
-	height: 30%;
-    width: 30%;
-	float:left;
-}
-#haze img {
-	height: 50%;
-    width: 50%;
-	float:left;
-}
-#abyss img {
-	height: 30%;
-    width: 30%;
-	float:left;
-}
-#dawn img {
-	height: 50%;
-    width: 50%;
-	float:left;
-}
-#girls img {
-	height: 30%;
-    width: 30%;
-	float:left;
-}
-article img {
+#sete{ 
+		padding: .5vw;
+		flex-flow: row wrap; 
+		display: flex;
+	}
+	section div { 
+		flex: auto; 
+		width: 270px; 
+		margin: .5vw; 
+	}
+	section div img { 
+		width: 100%; 
+		height: auto; 
+	}
 
+	@media screen and (max-width: 400px) {
+		header div { margin: 0; }
+		header { padding: 0; }
+	}
+
+/*
+galeria
+
+*/
+h2{
+    margin-top: 0.2%;
+	text-align: center;
+	padding: 10px 25px;
+} 
+.w3-container img{
 margin: 0 auto;
 max-width:100%;
 max-height:100%;
 width: auto;
 height: auto;
-
 }
